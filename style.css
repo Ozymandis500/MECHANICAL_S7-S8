@@ -2,7 +2,6 @@ body {
   background-color: #333333;
   margin: 0;
   font-size:12px;
-  border-collapse:collapse;
 }
  
 table {
@@ -13,7 +12,6 @@ table {
   border-spacing: 0;
   background-color: #333333;
   font-size:12px;
-  border-collapse:collapse;
 }
  
 th,
