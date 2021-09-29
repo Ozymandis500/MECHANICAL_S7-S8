@@ -48,6 +48,7 @@ td {
 }
 
 .content{
+    padding-left: 6%;
     height:15px;
     width:auto;
     overflow:hidden;
