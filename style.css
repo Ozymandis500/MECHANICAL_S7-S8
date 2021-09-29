@@ -1,6 +1,8 @@
 body {
   background-color: #333333;
   margin: 0;
+  font-size:12px;
+  border-collapse:collapse;
 }
  
 table {
@@ -10,37 +12,54 @@ table {
   font-family: "Ubuntu"; /*border-collapse: collapse;*/
   border-spacing: 0;
   background-color: #333333;
+  font-size:12px;
+  border-collapse:collapse;
 }
  
 th,
 td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
+  white-space:nowrap;
+  padding:3px 3px;
+  margin:0px;
 }
  
 th {
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
-  padding: 10px 0;
+  padding: 20px 0;
   color: rgba(255, 255, 255, 0.5);
   background-color: #292929;
   letter-spacing: 1px;
 }
  
 td {
-  width: 14.285%;
+  width: 10%;
   transition: all 0.3s;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
-  padding: 1.5% 1.5% 5%;
+  padding: 1.5% 1.5% 2%;
   vertical-align: initial;
   padding: 1.5% 0;
-  height: 75px;
+  height: auto;
 }
- 
+
+.content{
+    height:15px;
+    width:auto;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.content:hover{
+    height:auto;
+    width:auto;
+}
+
 .day:hover {
   background-color: rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -52,29 +71,5 @@ td {
 }
  
 span.number {
-  margin-left: 10%;
-}
- 
-span.event {
-  height: 4px;
-  background-color: rgba(0, 0, 0, 0.3);
-  display: block;
-  margin: 5px 10%;
-  border-radius: 2px;
-  background-color: #91c33b;
-}
- 
-span.event-multiday {
-  margin: 5px -2px;
-  border-radius: 0;
-}
-span.event-multiday-start {
-  margin-right: -4px;
-}
-span.event-multiday-finish {
-  margin-left: -4px;
-}
- 
-span.event-ghost {
-  background-color: transparent;
+  margin-left: 5%;
 }
