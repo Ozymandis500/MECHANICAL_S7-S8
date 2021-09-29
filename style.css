@@ -4,8 +4,7 @@ body {
   font: size 12px;
 }
  
-table {
-  padding: 1%;
+.time {
   width: 100%;
   box-sizing: border-box;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
@@ -15,11 +14,21 @@ table {
   font-size:12px;
 }
  
+ .info {
+    padding: 1%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    font-family: "Ubuntu"; /*border-collapse: collapse;*/
+    border-spacing: 0;
+    background-color: #333333;
+    font-size:12px;
+  }
+   
 th,
 td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
-  white-space:nowrap;
   padding:3px 3px;
   margin:0px;
 }
