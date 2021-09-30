@@ -19,9 +19,10 @@ body {
 
  body {
    background-repeat: no-repeat;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #603F8B, #B4FEE7, #A16AE8, #FD49A0);
   background-size: 500% 500%;
-  animation: gradient 20s ease infinite;
+  animation: gradient 15s  ease infinite;
+  backdrop-filter: blur(10px);
 }
 
 @keyframes gradient {
@@ -39,12 +40,14 @@ body {
 .navbar {
   box-sizing: border-box;
   overflow: hidden;
-  background-color: #333;
+  background-color: #301551a2;
   top: 0;
   width: 100%;
+  backdrop-filter: blur(10px);
 }
 
 .navbar h1 {
+  width: auto;
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -55,10 +58,12 @@ body {
 .bottombar {
   box-sizing: border-box;
   overflow: hidden;
-  background-color: #333;
+  background-color: #301551a2;
   bottom: 0;
   width: 100%;
+  backdrop-filter: blur(10px);
 }
+
 .bottombar h2 {
   position: relative;
   float: center;
@@ -75,7 +80,7 @@ body {
 }
 
 .mylogo {
-  margin: 10px auto;
+  margin: 5px auto 5px;
   display: block;
   padding: 0.5%;
   min-width: 50px;
@@ -136,8 +141,8 @@ th {
   font-size: 14px;
   font-weight: 700;
   padding: 20px 0;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #643A71;
+  color: #fff;
+  background-color: #27104e;
   letter-spacing: 1px;
 }
 
@@ -147,9 +152,8 @@ td {
   font-size: 14px;
   font-weight: 500;
   padding: 20px 0;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #643A71;
-  letter-spacing: 1px;
+  color: #fff;
+  background-color: #64379f;
 }
 
  /*
@@ -179,15 +183,35 @@ td {
 }
 
 .day:hover {
-  background-color: #D183C9;
+  background-color: #ddacf5;
+  color: #0a1c0c;
   cursor: pointer;
 }
  
 .today {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.25) !important;
+  color: #0a1c0c;
+  background-color: #75e8e7;
 }
- 
-span.number {
-  margin-left: 5%;
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #75e8e7;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: #fff;
 }
