@@ -1,17 +1,40 @@
 body {
-  background-color: #333333;
+  background-color: #FEC0CE;
   margin: 0;
   font: size 12px;
+  font-family: 'Gemunu Libre', sans-serif;
 }
  
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar h1 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.5% 1%;
+  font-size: 17px;
+}
+
+.logo {
+  float: left;
+  min-width: 50px;
+  width: 3%;
+}
+
 .time {
   width: 100%;
   box-sizing: border-box;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
-  font-family: "Ubuntu"; /*border-collapse: collapse;*/
-  border-spacing: 0;
-  background-color: #333333;
+  border-spacing: .5;
+  background-color: #FEC0CE;
   font-size:12px;
+  padding-top: 7%;
 }
  
  .info {
@@ -19,15 +42,15 @@ body {
     width: 100%;
     box-sizing: border-box;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
-    font-family: "Ubuntu"; /*border-collapse: collapse;*/
-    border-spacing: 0;
-    background-color: #333333;
+    border-spacing: .2;
+    background-color: #FEC0CE;
     font-size:12px;
   }
    
 th,
 td {
-  border: 1px solid rgba(255, 255, 255, 0.1);
+ /* border: 1px solid #32292F; */
+ border-radius: 10px;
   box-sizing: border-box;
   padding:3px 3px;
   margin:0px;
@@ -40,25 +63,36 @@ th {
   font-weight: 700;
   padding: 20px 0;
   color: rgba(255, 255, 255, 0.5);
-  background-color: #292929;
+  background-color: #643A71;
   letter-spacing: 1px;
 }
- 
+
+td {
+  text-align: center;
+  padding: 1%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #643A71;
+  letter-spacing: 1px;
+}
+
+ /*
 td {
   width: 14.285%;
   transition: all 0.3s;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #32292F;
   font-weight: 400;
   font-size: 14px;
   padding: 1.5% 1.5% 2%;
   vertical-align: initial;
-  padding: 1.5% 0;
+  padding: 20px 0;
   height: auto;
 }
-
+*/
 .content{
-    padding-left: 6%;
     height:15px;
     width:auto;
     overflow:hidden;
@@ -71,7 +105,7 @@ td {
 }
 
 .day:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #D183C9;
   cursor: pointer;
 }
  
