@@ -52,10 +52,34 @@ body {
   font-size: 17px;
 }
 
+.bottombar {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+}
+.bottombar h2 {
+  position: relative;
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.5% 1%;
+  font-size: 17px;
+}
+
 .logo {
   float: left;
   min-width: 50px;
   width: 3%;
+}
+
+.mylogo {
+  margin: 10px auto;
+  display: block;
+  padding: 0.5%;
+  min-width: 50px;
+  width: 4%;
 }
 
 .time_table {
