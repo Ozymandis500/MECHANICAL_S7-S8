@@ -17,8 +17,12 @@ body {
   font-family: 'Gemunu Libre', sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
  body {
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background: linear-gradient(-45deg, #603F8B, #B4FEE7, #A16AE8, #FD49A0);
   background-size: 500% 500%;
   animation: gradient 15s  ease infinite;
@@ -205,7 +209,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #75e8e7;
+  color: red;
 }
 
 a:active {
